@@ -19,7 +19,7 @@
 				<nav class="header-menu-left">
 					<ul class="header-menu-list">
 						<li class="header-menu-item"><a class="header-menu-link" href="catalog-woman.html"><i class="fa-solid fa-venus"></i> Женщинам</a></li>
-						<li class="header-menu-item"><a class="header-menu-link" href="#"><i class="fa-solid fa-mars"></i> Мужчинам</a></li>
+						<li class="header-menu-item"><a class="header-menu-link" href="catalog-men.html"><i class="fa-solid fa-mars"></i> Мужчинам</a></li>
 					</ul>
 				</nav>
 				<div class="header-logo">
@@ -33,7 +33,8 @@
 				</div>
 				<nav class="header-menu-right">
 					<ul class="header-menu-list">
-						<li class="header-menu-item"><a class="header-menu-link" href="login.html"><i class="fa-solid fa-right-to-bracket"></i> Войти</a></li>
+						<li class="header-menu-item"><a class="header-menu-link" href="profile.html"><i class="fa-solid fa-user"></i> Профиль</a></li>
+						<li class="header-menu-item"><a class="header-menu-link" href="favorites.html"><i class="fa-solid fa-heart"></i> Избранное</a></li>
 						<li class="header-menu-item"><a class="header-menu-link" href="cart.html"><i class="fa-solid fa-cart-shopping"></i> корзина</a></li>
 					</ul>
 				</nav>
@@ -41,34 +42,48 @@
 		</div>
 	</header>
 	<main>
-		<section class="login">
-			<div class="login-flex">
-				<form action="" class="login-form">
-					<h1 class="login-title">
-						Авторизация
-					</h1>
-					<div class="login-email">
-						<input type="text" placeholder="Введите email или номер телефона" required>
-					</div>
-					<div class="login-password">
-						<input type="password" placeholder="Введите пароль" required>
-						<a href=""><i class="fa-solid fa-eye fa-xl"></i></a>
-					</div>
-					<div class="login-remember">
-						<label for="">
-							<input type="checkbox" name="" id=""> Запомнить пароль
-						</label>
-						<a href="#">Забыли пароль?</a>
-					</div>
-					<a href="profile.html" type="submit" class="login-button button">
-						Войти
-					</a>
-					<div class="login-link">
-						<p class="login-text">
-							<a href="registr.html">Зарегистрироваться</a>
+		<section class="favorites">
+			<div class="container">
+				<nav class="favorites-navbar">
+					<ul class="favorites-list">
+						<li class="favorites-item"><a href="index.html" class="favorites-link">Главная</a></li>
+						<i class="fa-solid fa-chevron-right"></i>
+						<li class="favorites-item"><a href="favorites.html" class="favorites-link">Избранное</a></li>
+					</ul>
+				</nav>
+				<h1 class="favorites-title">
+					<a href="favorites.html">Избранное</a>
+				</h1>
+				<div class="favorites-flex">
+					<div class="favorites-images">
+						<img src="./media/favorites/image 9.jpg" alt="" class="favorites-avatar">
+						<h1 class="favorites-text">
+							Кепка
+						</h1>
+						<p class="favorites-num">
+							2900 руб
 						</p>
+						<div class="catalog-woman-svg">
+							<a href=""><img src="./media/favorites/Ellipse 1.svg" alt=""></a>
+							<a href=""><img src="./media/favorites/Ellipse 2.svg" alt=""></a>
+							<a href=""><img src="./media/favorites/Ellipse 3.svg" alt=""></a>
+						</div>
 					</div>
-				</form>
+					<div class="favorites-images">
+						<img src="./media/favorites/image 10.jpg" alt="" class="favorites-avatar">
+						<h1 class="favorites-text">
+							Кепка
+						</h1>
+						<p class="favorites-num">
+							3150 руб
+						</p>
+						<div class="catalog-woman-svg">
+							<a href=""><img src="./media/favorites/Ellipse 1.svg" alt=""></a>
+							<a href=""><img src="./media/favorites/Ellipse 2.svg" alt=""></a>
+							<a href=""><img src="./media/favorites/Ellipse 3.svg" alt=""></a>
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
 	</main>
