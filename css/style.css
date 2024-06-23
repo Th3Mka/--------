@@ -421,20 +421,6 @@ a{
 
 /* Авторизация */
 
-.login::after {
-	content: "";
-	position: absolute;
-	background-image: url(../media/registr/background.jpg);
-	background-repeat: no-repeat;
-	width: 100%;
-	height: 100%;
-	background-position: top;
-	top: 0;
-	left: 0;
-	background-size: cover;
-	z-index: -1;
-}
-
 .login-flex{
 	display: flex;
 	justify-content: center;
@@ -586,20 +572,6 @@ label input{
 
 /* Регистрация */
 
-.registr::after {
-	content: "";
-	position: absolute;
-	background-image: url(../media/registr/background.jpg);
-	background-repeat: no-repeat;
-	width: 100%;
-	height: 100%;
-	background-position: top;
-	top: 0;
-	left: 0;
-	background-size: cover;
-	z-index: -1;
-}
-
 .registr-flex{
 	display: flex;
 	justify-content: center;
@@ -702,20 +674,6 @@ label input{
 
 /* Профиль */
 
-.profile::after {
-	content: "";
-	position: absolute;
-	background-image: url(../media/registr/background.jpg);
-	background-repeat: no-repeat;
-	width: 100%;
-	height: 100%;
-	background-position: top;
-	top: 0;
-	left: 0;
-	background-size: cover;
-	z-index: -2;
-}
-
 .container-small{
 	max-width: 1050px;
 	width: 100%;
@@ -809,6 +767,7 @@ ul{
 .profile-item{
 	display: flex;
 	justify-content: space-between;
+	gap: 20px;
 }
 
 .profile-item input + .profile-item input{
@@ -825,7 +784,6 @@ ul{
 .profile-button{
 	width: 100%;
 	margin-top: 40px;
-	margin-bottom: 300px;
 	font-size: 16px;
 	font-weight: bold;
 	color: rgb(0, 0, 0);
@@ -1507,11 +1465,38 @@ ul{
 	color: rgba(37, 37, 37, 0.5);
 }
 
+.cart-circle{
+	padding: 5px;
+	border: 1px solid black;
+	border-radius: 100%;
+}
+
+
+.cart-circle-2{
+	padding: 8px;
+	border: 1px solid black;
+	border-radius: 100%;
+}
+
+.cart-cash{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	font-weight: 200;
+	font-size: 16px;
+	color: #252525;
+}
+
+.cart-mir{
+	border: 1px solid #f3f3f3;
+	border-radius: 4px;
+	width: 60px;
+	height: 43px;
+	padding: 4px;
+}
+
 @media (max-width: 1620px){
 	.container{
 		max-width: 1400px;
-	}
-	.container-small{
-		max-width: 900px;
 	}
 }
